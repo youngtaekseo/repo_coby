@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>카카오페이 결제가 정상적으로 완료되었습니다.</h1>
+	<h3 th:text="'결제일시: '+${#dates.format(info.approved_at, 'yyyy-MM-dd HH:mm:ss')}"></h3>
+	<h3 th:text="'주문번호: '+${info.partner_order_id}"></h3>
+	<h3 th:text="'상품명	: '+${info.item_name}"></h3>
+	<h3 th:text="'상품수량: '+${info.quantity}"></h3>
+	<h3 th:text="'결제금액: '+${info.amount.total}"></h3>
+	<h3 th:text="'부가세	: '+${info.amount.vat}"></h3>
+	<h3 th:text="'결제방법: '+${info.payment_method_type}"></h3>
+	<h3 th:text="${info.resultInfo}"></h3>
+</body>
+</html>

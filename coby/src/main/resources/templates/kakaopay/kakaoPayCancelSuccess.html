@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>카카오페이 결제가 정상적으로 취소되었습니다.</h1>
+	<h3 th:text="'결제일시: '+${info.approved_at}"></h3>
+	<h3 th:text="'주문번호: '+${info.partner_order_id}"></h3>
+	<h3 th:text="'상품명	: '+${info.item_name}"></h3>
+	<h3 th:text="'상품수량: '+${info.quantity}"></h3>
+	<h3 th:text="'결제금액: '+${#numbers.formatInteger(info.amount.total, 1, 'COMMA')}"></h3>
+	<h3 th:text="'부가세	: '+${#numbers.formatInteger(info.amount.vat, 1, 'COMMA')}"></h3>
+	<h3 th:text="'결제방법: '+${info.payment_method_type}"></h3>
+	<h3>=====================================================================</h3>
+	<h3 th:text="'취소일시	: '+${info.canceled_at}"></h3>
+	<h3 th:text="'취소금액	: -'+${#numbers.formatInteger(info.approved_cancel_amount.total, 1, 'COMMA')}"></h3>
+	<h3 th:text="'취소부가세	: -'+${#numbers.formatInteger(info.approved_cancel_amount.vat, 1, 'COMMA')}"></h3>
+	<h3>=====================================================================</h3>
+	<h3 th:text="${info.resultInfo}"></h3>
+</body>
+</html>
