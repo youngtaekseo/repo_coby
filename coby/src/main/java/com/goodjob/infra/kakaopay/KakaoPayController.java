@@ -38,11 +38,19 @@ public class KakaoPayController {
     @RequestMapping(value="/kakaopayCancel")
 	public String kakaopayCancel(Model model, HttpSession httpSession ) {
     	System.out.println(".................................................... kakaopayCancel");
-    	model.addAttribute("info", kakaoPayService.kakaoPayCancel(httpSession));
-    	
-    	// 세션종료
-    	httpSession.invalidate();
-    	
-    	return "kakaopay/kakaopayCancelSuccess"; 
+    	String sessTidString = (String) httpSession.getAttribute("sessTid");
+    	if(sessTidString != null) {
+    		model.addAttribute("info", kakaoPayService.kakaoPayCancel(httpSession));
+
+    		// 세션삭제
+        	httpSession.removeAttribute("sessTid");
+        	httpSession.removeAttribute("sessTotal");
+        	httpSession.removeAttribute("sessTaxFree");
+        	httpSession.removeAttribute("sessVat");
+        	
+        	return "kakaopay/kakaopayCancelSuccess"; 
+    	} else {
+    		return "redirect:/kakao"; 
+    	}
 	}
 }
