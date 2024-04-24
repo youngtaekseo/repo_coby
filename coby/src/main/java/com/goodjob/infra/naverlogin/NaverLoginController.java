@@ -29,15 +29,15 @@ public class NaverLoginController {
     private String naverClientId;	
 	
 	// 로그인화면
-    @RequestMapping(value="/naverlogin")
-	public String naverlogin() {
+    @RequestMapping(value="/naverLogin")
+	public String naverLogin() {
     	return "naverlogin/naverLogin";
     }
     
-	@RequestMapping(value="/naver_login")
-	public String naver_login(HttpServletRequest request) {
-	    String client_id    = naverClientId;
-	    String redirect_uri = "http://localhost:8081/naver_redirect";
+	@RequestMapping(value="/loginNaver")
+	public String loginNaver(HttpServletRequest request) {
+	    //String client_id    = naverClientId;
+	    String redirect_uri = "http://localhost:8081/redirectNaver";
 	    //String state = RandomStringUtils.randomAlphabetic(10);   // 랜덤 문자열 생성
 	    // 랜덤 문자열 생성
 	    //=====================================================================
@@ -54,7 +54,7 @@ public class NaverLoginController {
 	    //=====================================================================
 	    
 	    String login_url = "https://nid.naver.com/oauth2.0/authorize?response_type=code"
-	            + "&client_id=" + client_id
+	            + "&client_id=" + naverClientId
 	            + "&redirect_uri=" + redirect_uri
 	            + "&state=" + state;
 
@@ -63,8 +63,8 @@ public class NaverLoginController {
 	    return "redirect:" + login_url;
 	}
 	
-	@RequestMapping(value="/naver_redirect")
-	public String naver_redirect(HttpServletRequest request, NaverLoginDto dto, NaverLoginDto isDto, Model model) {
+	@RequestMapping(value="/redirectNaver")
+	public String naverRedirect(HttpServletRequest request, NaverLoginDto dto, NaverLoginDto isDto, Model model) {
 		// 네이버에서 전달해준 code, state 값 가져오기
 	    String code = request.getParameter("code");
 	    String state = request.getParameter("state");
