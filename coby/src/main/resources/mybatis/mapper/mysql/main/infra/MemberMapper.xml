@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.goodjob.infra.naverlogin.NaverLoginDao">
+
+	<resultMap id="resultMapObj" type="com.goodjob.infra.naverlogin.NaverLoginDto"></resultMap>
+	
+	<!-- 로그인 id 확인용 -->
+	<select id="selectOneLogin" resultMap="resultMapObj">
+		SELECT mbrSeq
+		     , mbrName
+		     , mbrEmail
+		  FROM members
+		 WHERE 1 = 1
+		   AND mbrEmail = #{email}
+		   AND mbrDelNy = 0
+	</select>
+	
+	<insert id="insert">
+		INSERT INTO members
+			( 
+			  mbrType
+			, mbrName
+			, mbrEmail
+			, mbrRegDt
+			, mbrUdtDt
+			, mbrDelNy
+			)
+		VALUES
+			(
+			  1
+			, #{name}
+			, #{email}
+			, now()
+			, now()
+			, 0
+			)
+	</insert>
+
+</mapper>

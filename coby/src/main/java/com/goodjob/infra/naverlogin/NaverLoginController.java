@@ -2,13 +2,16 @@ package com.goodjob.infra.naverlogin;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Random;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.util.LinkedMultiValueMap;
 import org.springframework.util.MultiValueMap;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -18,6 +21,9 @@ import jakarta.servlet.http.HttpServletRequest;
 
 @Controller
 public class NaverLoginController {
+	@Autowired
+	NaverLoginService service;
+	
 	// 로그인화면
     @RequestMapping(value="/naverlogin")
 	public String naverlogin() {
@@ -26,21 +32,33 @@ public class NaverLoginController {
     
 	@RequestMapping(value="/naver_login")
 	public String naver_login(HttpServletRequest request) {
-	    String client_id = ""; //[CLIENT ID];  <------------------------------------ 수정
-	    String redirect_uri = ""; //{contextPath}"/naver_redirect";  <------------------------------------ 수정
-	    String state = ""; //RandomStringUtils.randomAlphabetic(10);   // 랜덤 문자열 생성  <------------------------------------ 수정
+	    String client_id = "r1aTHRBql6Ny_r2b60bZ"; //[CLIENT ID];  <------------------------------------ 수정
+	    String redirect_uri = "http://localhost:8081/naver_redirect"; //{contextPath}"/naver_redirect";  <------------------------------------ 수정
+	    //String state = RandomStringUtils.randomAlphabetic(10);   // 랜덤 문자열 생성  <------------------------------------ 수정
+	    // 랜덤 문자열 생성
+	    int leftLimit  = 48;  // '0'
+	    int rightLimit = 122; // 'z'
+	    int stringLength = 10; // 문자열길이
+	    Random random = new Random();
+	    
+	    String state = random.ints(leftLimit, rightLimit+1)
+	    		.filter(i -> (i <= 57 || i >= 65) && (i <= 90 || i >= 97))
+	    		.limit(stringLength)
+	    		.collect(StringBuilder::new, StringBuilder::appendCodePoint, StringBuilder::append)
+	    		.toString();
+	    
 	    String login_url = "https://nid.naver.com/oauth2.0/authorize?response_type=code"
 	            + "&client_id=" + client_id
 	            + "&redirect_uri=" + redirect_uri
 	            + "&state=" + state;
 
 	    request.getSession().setAttribute("state", state);
-
+	    
 	    return "redirect:" + login_url;
 	}
 	
 	@RequestMapping(value="/naver_redirect")
-	public String naver_redirect(HttpServletRequest request) {
+	public String naver_redirect(HttpServletRequest request, NaverLoginDto dto, Model model) {
 		// 네이버에서 전달해준 code, state 값 가져오기
 	    String code = request.getParameter("code");
 	    String state = request.getParameter("state");
@@ -56,8 +74,8 @@ public class NaverLoginController {
 	    }
 
 	    String tokenURL = "https://nid.naver.com/oauth2.0/token";
-	    String client_id = ""; //[CLIENT ID];  <------------------------------------ 수정
-	    String client_secret = ""; //[CLIENT SECRET];  <------------------------------------ 수정
+	    String client_id = "r1aTHRBql6Ny_r2b60bZ"; //[CLIENT ID];  <------------------------------------ 수정
+	    String client_secret = "tDeVoy1gLD"; //[CLIENT SECRET];  <------------------------------------ 수정
 
 	    // body data 생성
 	    MultiValueMap<String, String> parameter = new LinkedMultiValueMap<>();
@@ -98,18 +116,46 @@ public class NaverLoginController {
 	        // Post 방식으로 Http 요청
 	        // 응답 데이터 형식은 Hashmap 으로 지정
 	        ResponseEntity<HashMap> userResult = restTemplate.postForEntity(userInfoURL, userInfoEntity, HashMap.class);
-	        Map<String, String> userResultMap = userResult.getBody();
-
+	        Map<String, Object> userResultMap = userResult.getBody();
+	        
+	        //NaverProfileResponse naverProfileResponse = objectMapper.readValue(userResult.getBody(), NaverProfileResponse.class);
+	        
 	        //응답 데이터 확인
 	        System.out.println(userResultMap);
+	        
+		    /*{response={
+		    id=YosQCAcb_GcHkIxD9bfiJe7HgRnf_Fm8vH7dtHmL74U, 
+		    email=ramses69@naver.com, 
+		    mobile=010-3540-6062, 
+		    mobile_e164=+821035406062, 
+		    name=서영택}, 
+		    resultcode=00, 
+		    message=success}
+			*/
+	        
+	        
+	        Map<String, String> response = (Map<String, String>) userResultMap.get("response");
+	        dto.setEmail(response.get("email"));
 
+	        // 회원존재확인
+	        dto = service.selectOneLogin(dto);
+	        
+	        if(dto.getMbrSeq() == null || dto.getMbrSeq() == "") {
+	        	dto.setId(response.get("id"));
+	        	dto.setEmail(response.get("email"));
+	        	dto.setMobile(response.get("mobile"));
+	        	dto.setName(response.get("name"));
+	        	
+	        	service.insert(dto);
+	        }
+	        
 	    } catch (Exception e) {
 	        e.printStackTrace();
 	    }
 
-			// 세션에 저장된 state 값 삭제
+		// 세션에 저장된 state 값 삭제
 	    request.getSession().removeAttribute("state");
-
-	    return "/sns/sns_result";
+	    
+	    return "/naverlogin/naverLoginResult";
 	}
 }

@@ -1,0 +1,1125 @@
+2024-04-24T16:04:59.261 [File Watcher] INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification) 
+2024-04-24T16:04:59.264 [Thread-35] INFO o.a.c.h.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:04:59.319 [restartedMain] INFO c.g.CobyApplication - Starting CobyApplication using Java 17.0.10 with PID 6684 (/Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby/bin/main started by ramses in /Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby) 
+2024-04-24T16:04:59.319 [restartedMain] INFO c.g.CobyApplication - The following 1 profile is active: "external" 
+2024-04-24T16:04:59.387 [restartedMain] WARN o.m.s.m.ClassPathMapperScanner - No MyBatis mapper was found in '[com.goodjob.*]' package. Please check your configuration. 
+2024-04-24T16:04:59.409 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8081 (http) 
+2024-04-24T16:04:59.410 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:04:59.410 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2024-04-24T16:04:59.410 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19] 
+2024-04-24T16:04:59.413 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2024-04-24T16:04:59.413 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 93 ms 
+2024-04-24T16:04:59.422 [restartedMain] WARN o.m.s.SqlSessionFactoryBean - Property 'mapperLocations' was specified but matching resources are not found. 
+2024-04-24T16:04:59.477 [restartedMain] INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2024-04-24T16:04:59.482 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:04:59.483 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8081 (http) with context path '' 
+2024-04-24T16:04:59.486 [restartedMain] INFO c.g.CobyApplication - Started CobyApplication in 0.183 seconds (process running for 2153.58) 
+2024-04-24T16:04:59.487 [restartedMain] INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2024-04-24T16:05:04.935 [File Watcher] INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification) 
+2024-04-24T16:05:04.937 [Thread-39] INFO o.a.c.h.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:05:04.984 [restartedMain] INFO c.g.CobyApplication - Starting CobyApplication using Java 17.0.10 with PID 6684 (/Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby/bin/main started by ramses in /Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby) 
+2024-04-24T16:05:04.984 [restartedMain] INFO c.g.CobyApplication - The following 1 profile is active: "external" 
+2024-04-24T16:05:05.037 [restartedMain] WARN o.m.s.m.ClassPathMapperScanner - No MyBatis mapper was found in '[com.goodjob.*]' package. Please check your configuration. 
+2024-04-24T16:05:05.055 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8081 (http) 
+2024-04-24T16:05:05.055 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:05:05.056 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2024-04-24T16:05:05.056 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19] 
+2024-04-24T16:05:05.058 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2024-04-24T16:05:05.058 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 73 ms 
+2024-04-24T16:05:05.066 [restartedMain] WARN o.m.s.SqlSessionFactoryBean - Property 'mapperLocations' was specified but matching resources are not found. 
+2024-04-24T16:05:05.110 [restartedMain] INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2024-04-24T16:05:05.114 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:05:05.115 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8081 (http) with context path '' 
+2024-04-24T16:05:05.117 [restartedMain] INFO c.g.CobyApplication - Started CobyApplication in 0.147 seconds (process running for 2159.212) 
+2024-04-24T16:05:05.118 [restartedMain] INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2024-04-24T16:05:18.177 [http-nio-8081-exec-1] INFO o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2024-04-24T16:05:18.177 [http-nio-8081-exec-1] INFO o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2024-04-24T16:05:18.178 [http-nio-8081-exec-1] INFO o.s.w.s.DispatcherServlet - Completed initialization in 1 ms 
+2024-04-24T16:06:27.459 [File Watcher] INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification) 
+2024-04-24T16:06:27.462 [Thread-43] INFO o.a.c.h.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:06:27.508 [restartedMain] INFO c.g.CobyApplication - Starting CobyApplication using Java 17.0.10 with PID 6684 (/Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby/bin/main started by ramses in /Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby) 
+2024-04-24T16:06:27.508 [restartedMain] INFO c.g.CobyApplication - The following 1 profile is active: "external" 
+2024-04-24T16:06:27.561 [restartedMain] WARN o.m.s.m.ClassPathMapperScanner - No MyBatis mapper was found in '[com.goodjob.*]' package. Please check your configuration. 
+2024-04-24T16:06:27.579 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8081 (http) 
+2024-04-24T16:06:27.579 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:06:27.579 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2024-04-24T16:06:27.579 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19] 
+2024-04-24T16:06:27.582 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2024-04-24T16:06:27.582 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 73 ms 
+2024-04-24T16:06:27.590 [restartedMain] WARN o.m.s.SqlSessionFactoryBean - Property 'mapperLocations' was specified but matching resources are not found. 
+2024-04-24T16:06:27.632 [restartedMain] INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2024-04-24T16:06:27.636 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:06:27.637 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8081 (http) with context path '' 
+2024-04-24T16:06:27.640 [restartedMain] INFO c.g.CobyApplication - Started CobyApplication in 0.145 seconds (process running for 2241.734) 
+2024-04-24T16:06:27.640 [restartedMain] INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2024-04-24T16:06:33.049 [http-nio-8081-exec-1] INFO o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2024-04-24T16:06:33.049 [http-nio-8081-exec-1] INFO o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2024-04-24T16:06:33.050 [http-nio-8081-exec-1] INFO o.s.w.s.DispatcherServlet - Completed initialization in 1 ms 
+2024-04-24T16:06:49.285 [File Watcher] INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification) 
+2024-04-24T16:06:49.287 [Thread-47] INFO o.a.c.h.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:06:49.333 [restartedMain] INFO c.g.CobyApplication - Starting CobyApplication using Java 17.0.10 with PID 6684 (/Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby/bin/main started by ramses in /Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby) 
+2024-04-24T16:06:49.333 [restartedMain] INFO c.g.CobyApplication - The following 1 profile is active: "external" 
+2024-04-24T16:06:49.391 [restartedMain] WARN o.m.s.m.ClassPathMapperScanner - No MyBatis mapper was found in '[com.goodjob.*]' package. Please check your configuration. 
+2024-04-24T16:06:49.418 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8081 (http) 
+2024-04-24T16:06:49.418 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:06:49.418 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2024-04-24T16:06:49.418 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19] 
+2024-04-24T16:06:49.423 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2024-04-24T16:06:49.423 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 90 ms 
+2024-04-24T16:06:49.431 [restartedMain] WARN o.m.s.SqlSessionFactoryBean - Property 'mapperLocations' was specified but matching resources are not found. 
+2024-04-24T16:06:49.477 [restartedMain] INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2024-04-24T16:06:49.482 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:06:49.482 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8081 (http) with context path '' 
+2024-04-24T16:06:49.485 [restartedMain] INFO c.g.CobyApplication - Started CobyApplication in 0.164 seconds (process running for 2263.578) 
+2024-04-24T16:06:49.486 [restartedMain] INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2024-04-24T16:20:11.520 [File Watcher] INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications) 
+2024-04-24T16:20:11.523 [Thread-51] INFO o.a.c.h.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:20:11.570 [restartedMain] INFO c.g.CobyApplication - Starting CobyApplication using Java 17.0.10 with PID 6684 (/Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby/bin/main started by ramses in /Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby) 
+2024-04-24T16:20:11.570 [restartedMain] INFO c.g.CobyApplication - The following 1 profile is active: "external" 
+2024-04-24T16:20:11.648 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8081 (http) 
+2024-04-24T16:20:11.648 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:20:11.648 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2024-04-24T16:20:11.648 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19] 
+2024-04-24T16:20:11.651 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2024-04-24T16:20:11.651 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 79 ms 
+2024-04-24T16:20:11.659 [restartedMain] WARN o.m.s.SqlSessionFactoryBean - Property 'mapperLocations' was specified but matching resources are not found. 
+2024-04-24T16:20:11.707 [restartedMain] INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2024-04-24T16:20:11.714 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:20:11.715 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8081 (http) with context path '' 
+2024-04-24T16:20:11.717 [restartedMain] INFO c.g.CobyApplication - Started CobyApplication in 0.16 seconds (process running for 3065.804) 
+2024-04-24T16:20:11.718 [restartedMain] INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2024-04-24T16:20:24.250 [File Watcher] INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification) 
+2024-04-24T16:20:24.253 [Thread-55] INFO o.a.c.h.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:20:24.311 [restartedMain] INFO c.g.CobyApplication - Starting CobyApplication using Java 17.0.10 with PID 6684 (/Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby/bin/main started by ramses in /Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby) 
+2024-04-24T16:20:24.311 [restartedMain] INFO c.g.CobyApplication - The following 1 profile is active: "external" 
+2024-04-24T16:20:24.378 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8081 (http) 
+2024-04-24T16:20:24.379 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:20:24.379 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2024-04-24T16:20:24.379 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19] 
+2024-04-24T16:20:24.381 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2024-04-24T16:20:24.381 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 69 ms 
+2024-04-24T16:20:24.389 [restartedMain] WARN o.m.s.SqlSessionFactoryBean - Property 'mapperLocations' was specified but matching resources are not found. 
+2024-04-24T16:20:24.431 [restartedMain] INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2024-04-24T16:20:24.437 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:20:24.438 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8081 (http) with context path '' 
+2024-04-24T16:20:24.441 [restartedMain] INFO c.g.CobyApplication - Started CobyApplication in 0.14 seconds (process running for 3078.527) 
+2024-04-24T16:20:24.441 [restartedMain] INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2024-04-24T16:21:06.335 [File Watcher] INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications) 
+2024-04-24T16:21:06.337 [Thread-59] INFO o.a.c.h.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:21:06.393 [restartedMain] INFO c.g.CobyApplication - Starting CobyApplication using Java 17.0.10 with PID 6684 (/Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby/bin/main started by ramses in /Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby) 
+2024-04-24T16:21:06.393 [restartedMain] INFO c.g.CobyApplication - The following 1 profile is active: "external" 
+2024-04-24T16:21:06.460 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8081 (http) 
+2024-04-24T16:21:06.461 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:21:06.461 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2024-04-24T16:21:06.461 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19] 
+2024-04-24T16:21:06.463 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2024-04-24T16:21:06.463 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 70 ms 
+2024-04-24T16:21:06.471 [restartedMain] WARN o.m.s.SqlSessionFactoryBean - Property 'mapperLocations' was specified but matching resources are not found. 
+2024-04-24T16:21:06.513 [restartedMain] INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2024-04-24T16:21:06.518 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:21:06.518 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8081 (http) with context path '' 
+2024-04-24T16:21:06.521 [restartedMain] INFO c.g.CobyApplication - Started CobyApplication in 0.139 seconds (process running for 3120.607) 
+2024-04-24T16:21:06.521 [restartedMain] INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2024-04-24T16:21:30.198 [File Watcher] INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification) 
+2024-04-24T16:21:30.200 [Thread-63] INFO o.a.c.h.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:21:30.257 [restartedMain] INFO c.g.CobyApplication - Starting CobyApplication using Java 17.0.10 with PID 6684 (/Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby/bin/main started by ramses in /Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby) 
+2024-04-24T16:21:30.257 [restartedMain] INFO c.g.CobyApplication - The following 1 profile is active: "external" 
+2024-04-24T16:21:30.325 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8081 (http) 
+2024-04-24T16:21:30.326 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:21:30.326 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2024-04-24T16:21:30.326 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19] 
+2024-04-24T16:21:30.328 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2024-04-24T16:21:30.328 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 70 ms 
+2024-04-24T16:21:30.337 [restartedMain] WARN o.m.s.SqlSessionFactoryBean - Property 'mapperLocations' was specified but matching resources are not found. 
+2024-04-24T16:21:30.378 [restartedMain] INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2024-04-24T16:21:30.382 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:21:30.383 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8081 (http) with context path '' 
+2024-04-24T16:21:30.385 [restartedMain] INFO c.g.CobyApplication - Started CobyApplication in 0.139 seconds (process running for 3144.472) 
+2024-04-24T16:21:30.386 [restartedMain] INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2024-04-24T16:21:56.082 [File Watcher] INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification) 
+2024-04-24T16:21:56.084 [Thread-67] INFO o.a.c.h.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:21:56.139 [restartedMain] INFO c.g.CobyApplication - Starting CobyApplication using Java 17.0.10 with PID 6684 (/Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby/bin/main started by ramses in /Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby) 
+2024-04-24T16:21:56.139 [restartedMain] INFO c.g.CobyApplication - The following 1 profile is active: "external" 
+2024-04-24T16:21:56.205 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8081 (http) 
+2024-04-24T16:21:56.206 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:21:56.206 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2024-04-24T16:21:56.206 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19] 
+2024-04-24T16:21:56.208 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2024-04-24T16:21:56.208 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 69 ms 
+2024-04-24T16:21:56.216 [restartedMain] WARN o.m.s.SqlSessionFactoryBean - Property 'mapperLocations' was specified but matching resources are not found. 
+2024-04-24T16:21:56.257 [restartedMain] INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2024-04-24T16:21:56.262 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:21:56.263 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8081 (http) with context path '' 
+2024-04-24T16:21:56.265 [restartedMain] INFO c.g.CobyApplication - Started CobyApplication in 0.137 seconds (process running for 3170.351) 
+2024-04-24T16:21:56.266 [restartedMain] INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2024-04-24T16:22:20.961 [File Watcher] INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification) 
+2024-04-24T16:22:20.963 [Thread-71] INFO o.a.c.h.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:22:21.021 [restartedMain] INFO c.g.CobyApplication - Starting CobyApplication using Java 17.0.10 with PID 6684 (/Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby/bin/main started by ramses in /Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby) 
+2024-04-24T16:22:21.021 [restartedMain] INFO c.g.CobyApplication - The following 1 profile is active: "external" 
+2024-04-24T16:22:21.101 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8081 (http) 
+2024-04-24T16:22:21.102 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:22:21.102 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2024-04-24T16:22:21.102 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19] 
+2024-04-24T16:22:21.104 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2024-04-24T16:22:21.104 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 82 ms 
+2024-04-24T16:22:21.113 [restartedMain] WARN o.m.s.SqlSessionFactoryBean - Property 'mapperLocations' was specified but matching resources are not found. 
+2024-04-24T16:22:21.154 [restartedMain] INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2024-04-24T16:22:21.158 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:22:21.159 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8081 (http) with context path '' 
+2024-04-24T16:22:21.161 [restartedMain] INFO c.g.CobyApplication - Started CobyApplication in 0.151 seconds (process running for 3195.247) 
+2024-04-24T16:22:21.162 [restartedMain] INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2024-04-24T16:22:52.936 [File Watcher] INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification) 
+2024-04-24T16:22:52.938 [Thread-75] INFO o.a.c.h.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:22:52.994 [restartedMain] INFO c.g.CobyApplication - Starting CobyApplication using Java 17.0.10 with PID 6684 (/Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby/bin/main started by ramses in /Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby) 
+2024-04-24T16:22:52.994 [restartedMain] INFO c.g.CobyApplication - The following 1 profile is active: "external" 
+2024-04-24T16:22:53.062 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8081 (http) 
+2024-04-24T16:22:53.063 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:22:53.063 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2024-04-24T16:22:53.063 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19] 
+2024-04-24T16:22:53.065 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2024-04-24T16:22:53.065 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 70 ms 
+2024-04-24T16:22:53.073 [restartedMain] WARN o.m.s.SqlSessionFactoryBean - Property 'mapperLocations' was specified but matching resources are not found. 
+2024-04-24T16:22:53.117 [restartedMain] INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2024-04-24T16:22:53.122 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:22:53.123 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8081 (http) with context path '' 
+2024-04-24T16:22:53.125 [restartedMain] INFO c.g.CobyApplication - Started CobyApplication in 0.141 seconds (process running for 3227.21) 
+2024-04-24T16:22:53.125 [restartedMain] INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2024-04-24T16:23:10.752 [File Watcher] INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification) 
+2024-04-24T16:23:10.753 [Thread-79] INFO o.a.c.h.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:23:10.794 [restartedMain] INFO c.g.CobyApplication - Starting CobyApplication using Java 17.0.10 with PID 6684 (/Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby/bin/main started by ramses in /Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby) 
+2024-04-24T16:23:10.794 [restartedMain] INFO c.g.CobyApplication - The following 1 profile is active: "external" 
+2024-04-24T16:23:10.858 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8081 (http) 
+2024-04-24T16:23:10.858 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:23:10.858 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2024-04-24T16:23:10.858 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19] 
+2024-04-24T16:23:10.860 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2024-04-24T16:23:10.861 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 66 ms 
+2024-04-24T16:23:10.868 [restartedMain] WARN o.m.s.SqlSessionFactoryBean - Property 'mapperLocations' was specified but matching resources are not found. 
+2024-04-24T16:23:10.909 [restartedMain] INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2024-04-24T16:23:10.913 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:23:10.914 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8081 (http) with context path '' 
+2024-04-24T16:23:10.916 [restartedMain] INFO c.g.CobyApplication - Started CobyApplication in 0.131 seconds (process running for 3245.002) 
+2024-04-24T16:23:10.917 [restartedMain] INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2024-04-24T16:23:12.320 [File Watcher] INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification) 
+2024-04-24T16:23:12.321 [Thread-83] INFO o.a.c.h.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:23:12.366 [restartedMain] INFO c.g.CobyApplication - Starting CobyApplication using Java 17.0.10 with PID 6684 (/Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby/bin/main started by ramses in /Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby) 
+2024-04-24T16:23:12.367 [restartedMain] INFO c.g.CobyApplication - The following 1 profile is active: "external" 
+2024-04-24T16:23:12.431 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8081 (http) 
+2024-04-24T16:23:12.431 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:23:12.431 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2024-04-24T16:23:12.431 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19] 
+2024-04-24T16:23:12.434 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2024-04-24T16:23:12.434 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 67 ms 
+2024-04-24T16:23:12.441 [restartedMain] WARN o.m.s.SqlSessionFactoryBean - Property 'mapperLocations' was specified but matching resources are not found. 
+2024-04-24T16:23:12.482 [restartedMain] INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2024-04-24T16:23:12.487 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:23:12.488 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8081 (http) with context path '' 
+2024-04-24T16:23:12.490 [restartedMain] INFO c.g.CobyApplication - Started CobyApplication in 0.132 seconds (process running for 3246.575) 
+2024-04-24T16:23:12.490 [restartedMain] INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2024-04-24T16:23:51.379 [File Watcher] INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification) 
+2024-04-24T16:23:51.381 [Thread-87] INFO o.a.c.h.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:23:51.436 [restartedMain] INFO c.g.CobyApplication - Starting CobyApplication using Java 17.0.10 with PID 6684 (/Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby/bin/main started by ramses in /Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby) 
+2024-04-24T16:23:51.436 [restartedMain] INFO c.g.CobyApplication - The following 1 profile is active: "external" 
+2024-04-24T16:23:51.502 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8081 (http) 
+2024-04-24T16:23:51.503 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:23:51.503 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2024-04-24T16:23:51.503 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19] 
+2024-04-24T16:23:51.505 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2024-04-24T16:23:51.505 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 69 ms 
+2024-04-24T16:23:51.513 [restartedMain] WARN o.m.s.SqlSessionFactoryBean - Property 'mapperLocations' was specified but matching resources are not found. 
+2024-04-24T16:23:51.554 [restartedMain] INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2024-04-24T16:23:51.558 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:23:51.559 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8081 (http) with context path '' 
+2024-04-24T16:23:51.561 [restartedMain] INFO c.g.CobyApplication - Started CobyApplication in 0.135 seconds (process running for 3285.646) 
+2024-04-24T16:23:51.562 [restartedMain] INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2024-04-24T16:24:16.230 [File Watcher] INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications) 
+2024-04-24T16:24:16.233 [Thread-91] INFO o.a.c.h.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:24:16.289 [restartedMain] INFO c.g.CobyApplication - Starting CobyApplication using Java 17.0.10 with PID 6684 (/Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby/bin/main started by ramses in /Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby) 
+2024-04-24T16:24:16.289 [restartedMain] INFO c.g.CobyApplication - The following 1 profile is active: "external" 
+2024-04-24T16:24:16.356 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8081 (http) 
+2024-04-24T16:24:16.356 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:24:16.356 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2024-04-24T16:24:16.356 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19] 
+2024-04-24T16:24:16.359 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2024-04-24T16:24:16.359 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 69 ms 
+2024-04-24T16:24:16.367 [restartedMain] WARN o.m.s.SqlSessionFactoryBean - Property 'mapperLocations' was specified but matching resources are not found. 
+2024-04-24T16:24:16.408 [restartedMain] INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2024-04-24T16:24:16.412 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:24:16.413 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8081 (http) with context path '' 
+2024-04-24T16:24:16.416 [restartedMain] INFO c.g.CobyApplication - Started CobyApplication in 0.136 seconds (process running for 3310.5) 
+2024-04-24T16:24:16.416 [restartedMain] INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2024-04-24T16:24:29.970 [File Watcher] INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification) 
+2024-04-24T16:24:29.972 [Thread-95] INFO o.a.c.h.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:24:30.028 [restartedMain] INFO c.g.CobyApplication - Starting CobyApplication using Java 17.0.10 with PID 6684 (/Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby/bin/main started by ramses in /Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby) 
+2024-04-24T16:24:30.028 [restartedMain] INFO c.g.CobyApplication - The following 1 profile is active: "external" 
+2024-04-24T16:24:30.094 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8081 (http) 
+2024-04-24T16:24:30.095 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:24:30.095 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2024-04-24T16:24:30.095 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19] 
+2024-04-24T16:24:30.097 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2024-04-24T16:24:30.097 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 69 ms 
+2024-04-24T16:24:30.105 [restartedMain] WARN o.m.s.SqlSessionFactoryBean - Property 'mapperLocations' was specified but matching resources are not found. 
+2024-04-24T16:24:30.146 [restartedMain] INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2024-04-24T16:24:30.151 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:24:30.151 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8081 (http) with context path '' 
+2024-04-24T16:24:30.154 [restartedMain] INFO c.g.CobyApplication - Started CobyApplication in 0.136 seconds (process running for 3324.238) 
+2024-04-24T16:24:30.154 [restartedMain] INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2024-04-24T16:24:35.617 [File Watcher] INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification) 
+2024-04-24T16:24:35.619 [Thread-99] INFO o.a.c.h.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:24:35.675 [restartedMain] INFO c.g.CobyApplication - Starting CobyApplication using Java 17.0.10 with PID 6684 (/Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby/bin/main started by ramses in /Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby) 
+2024-04-24T16:24:35.675 [restartedMain] INFO c.g.CobyApplication - The following 1 profile is active: "external" 
+2024-04-24T16:24:35.743 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8081 (http) 
+2024-04-24T16:24:35.744 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:24:35.744 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2024-04-24T16:24:35.744 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19] 
+2024-04-24T16:24:35.746 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2024-04-24T16:24:35.746 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 70 ms 
+2024-04-24T16:24:35.754 [restartedMain] WARN o.m.s.SqlSessionFactoryBean - Property 'mapperLocations' was specified but matching resources are not found. 
+2024-04-24T16:24:35.796 [restartedMain] INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2024-04-24T16:24:35.800 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:24:35.801 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8081 (http) with context path '' 
+2024-04-24T16:24:35.803 [restartedMain] INFO c.g.CobyApplication - Started CobyApplication in 0.138 seconds (process running for 3329.888) 
+2024-04-24T16:24:35.804 [restartedMain] INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2024-04-24T16:24:51.394 [File Watcher] INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification) 
+2024-04-24T16:24:51.396 [Thread-103] INFO o.a.c.h.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:24:51.452 [restartedMain] INFO c.g.CobyApplication - Starting CobyApplication using Java 17.0.10 with PID 6684 (/Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby/bin/main started by ramses in /Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby) 
+2024-04-24T16:24:51.452 [restartedMain] INFO c.g.CobyApplication - The following 1 profile is active: "external" 
+2024-04-24T16:24:51.519 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8081 (http) 
+2024-04-24T16:24:51.519 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:24:51.519 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2024-04-24T16:24:51.519 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19] 
+2024-04-24T16:24:51.522 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2024-04-24T16:24:51.522 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 70 ms 
+2024-04-24T16:24:51.529 [restartedMain] WARN o.m.s.SqlSessionFactoryBean - Property 'mapperLocations' was specified but matching resources are not found. 
+2024-04-24T16:24:51.570 [restartedMain] INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2024-04-24T16:24:51.575 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:24:51.575 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8081 (http) with context path '' 
+2024-04-24T16:24:51.578 [restartedMain] INFO c.g.CobyApplication - Started CobyApplication in 0.135 seconds (process running for 3345.662) 
+2024-04-24T16:24:51.578 [restartedMain] INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2024-04-24T16:25:09.167 [File Watcher] INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications) 
+2024-04-24T16:25:09.170 [Thread-107] INFO o.a.c.h.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:25:09.227 [restartedMain] INFO c.g.CobyApplication - Starting CobyApplication using Java 17.0.10 with PID 6684 (/Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby/bin/main started by ramses in /Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby) 
+2024-04-24T16:25:09.227 [restartedMain] INFO c.g.CobyApplication - The following 1 profile is active: "external" 
+2024-04-24T16:25:09.305 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8081 (http) 
+2024-04-24T16:25:09.305 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:25:09.305 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2024-04-24T16:25:09.305 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19] 
+2024-04-24T16:25:09.308 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2024-04-24T16:25:09.308 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 80 ms 
+2024-04-24T16:25:09.316 [restartedMain] WARN o.m.s.SqlSessionFactoryBean - Property 'mapperLocations' was specified but matching resources are not found. 
+2024-04-24T16:25:09.357 [restartedMain] INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2024-04-24T16:25:09.362 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:25:09.363 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8081 (http) with context path '' 
+2024-04-24T16:25:09.365 [restartedMain] INFO c.g.CobyApplication - Started CobyApplication in 0.148 seconds (process running for 3363.449) 
+2024-04-24T16:25:09.366 [restartedMain] INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2024-04-24T16:25:23.957 [File Watcher] INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification) 
+2024-04-24T16:25:23.959 [Thread-111] INFO o.a.c.h.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:25:24.014 [restartedMain] INFO c.g.CobyApplication - Starting CobyApplication using Java 17.0.10 with PID 6684 (/Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby/bin/main started by ramses in /Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby) 
+2024-04-24T16:25:24.014 [restartedMain] INFO c.g.CobyApplication - The following 1 profile is active: "external" 
+2024-04-24T16:25:24.091 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8081 (http) 
+2024-04-24T16:25:24.093 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:25:24.093 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2024-04-24T16:25:24.093 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19] 
+2024-04-24T16:25:24.095 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2024-04-24T16:25:24.095 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 80 ms 
+2024-04-24T16:25:24.105 [restartedMain] WARN o.m.s.SqlSessionFactoryBean - Property 'mapperLocations' was specified but matching resources are not found. 
+2024-04-24T16:25:24.151 [restartedMain] INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2024-04-24T16:25:24.156 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:25:24.156 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8081 (http) with context path '' 
+2024-04-24T16:25:24.159 [restartedMain] INFO c.g.CobyApplication - Started CobyApplication in 0.156 seconds (process running for 3378.243) 
+2024-04-24T16:25:24.159 [restartedMain] INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2024-04-24T16:25:44.805 [File Watcher] INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications) 
+2024-04-24T16:25:44.807 [Thread-115] INFO o.a.c.h.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:25:44.853 [restartedMain] INFO c.g.CobyApplication - Starting CobyApplication using Java 17.0.10 with PID 6684 (/Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby/bin/main started by ramses in /Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby) 
+2024-04-24T16:25:44.854 [restartedMain] INFO c.g.CobyApplication - The following 1 profile is active: "external" 
+2024-04-24T16:25:44.915 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8081 (http) 
+2024-04-24T16:25:44.915 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:25:44.915 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2024-04-24T16:25:44.915 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19] 
+2024-04-24T16:25:44.917 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2024-04-24T16:25:44.917 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 63 ms 
+2024-04-24T16:25:44.926 [restartedMain] WARN o.m.s.SqlSessionFactoryBean - Property 'mapperLocations' was specified but matching resources are not found. 
+2024-04-24T16:25:44.966 [restartedMain] INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2024-04-24T16:25:44.971 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:25:44.972 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8081 (http) with context path '' 
+2024-04-24T16:25:44.974 [restartedMain] INFO c.g.CobyApplication - Started CobyApplication in 0.128 seconds (process running for 3399.058) 
+2024-04-24T16:25:44.974 [restartedMain] INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2024-04-24T16:25:56.508 [File Watcher] INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification) 
+2024-04-24T16:25:56.510 [Thread-119] INFO o.a.c.h.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:25:56.567 [restartedMain] INFO c.g.CobyApplication - Starting CobyApplication using Java 17.0.10 with PID 6684 (/Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby/bin/main started by ramses in /Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby) 
+2024-04-24T16:25:56.567 [restartedMain] INFO c.g.CobyApplication - The following 1 profile is active: "external" 
+2024-04-24T16:25:56.634 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8081 (http) 
+2024-04-24T16:25:56.634 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:25:56.634 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2024-04-24T16:25:56.634 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19] 
+2024-04-24T16:25:56.637 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2024-04-24T16:25:56.637 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 69 ms 
+2024-04-24T16:25:56.645 [restartedMain] WARN o.m.s.SqlSessionFactoryBean - Property 'mapperLocations' was specified but matching resources are not found. 
+2024-04-24T16:25:56.685 [restartedMain] INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2024-04-24T16:25:56.689 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:25:56.690 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8081 (http) with context path '' 
+2024-04-24T16:25:56.692 [restartedMain] INFO c.g.CobyApplication - Started CobyApplication in 0.135 seconds (process running for 3410.776) 
+2024-04-24T16:25:56.693 [restartedMain] INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2024-04-24T16:26:00.127 [File Watcher] INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification) 
+2024-04-24T16:26:00.129 [Thread-123] INFO o.a.c.h.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:26:00.182 [restartedMain] INFO c.g.CobyApplication - Starting CobyApplication using Java 17.0.10 with PID 6684 (/Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby/bin/main started by ramses in /Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby) 
+2024-04-24T16:26:00.182 [restartedMain] INFO c.g.CobyApplication - The following 1 profile is active: "external" 
+2024-04-24T16:26:00.248 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8081 (http) 
+2024-04-24T16:26:00.248 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:26:00.248 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2024-04-24T16:26:00.248 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19] 
+2024-04-24T16:26:00.251 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2024-04-24T16:26:00.251 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 69 ms 
+2024-04-24T16:26:00.260 [restartedMain] WARN o.m.s.SqlSessionFactoryBean - Property 'mapperLocations' was specified but matching resources are not found. 
+2024-04-24T16:26:00.300 [restartedMain] INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2024-04-24T16:26:00.305 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:26:00.305 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8081 (http) with context path '' 
+2024-04-24T16:26:00.308 [restartedMain] INFO c.g.CobyApplication - Started CobyApplication in 0.136 seconds (process running for 3414.392) 
+2024-04-24T16:26:00.308 [restartedMain] INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2024-04-24T16:26:27.040 [File Watcher] INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications) 
+2024-04-24T16:26:27.043 [Thread-127] INFO o.a.c.h.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:26:27.099 [restartedMain] INFO c.g.CobyApplication - Starting CobyApplication using Java 17.0.10 with PID 6684 (/Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby/bin/main started by ramses in /Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby) 
+2024-04-24T16:26:27.099 [restartedMain] INFO c.g.CobyApplication - The following 1 profile is active: "external" 
+2024-04-24T16:26:27.175 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8081 (http) 
+2024-04-24T16:26:27.175 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:26:27.175 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2024-04-24T16:26:27.175 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19] 
+2024-04-24T16:26:27.178 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2024-04-24T16:26:27.178 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 78 ms 
+2024-04-24T16:26:27.187 [restartedMain] WARN o.m.s.SqlSessionFactoryBean - Property 'mapperLocations' was specified but matching resources are not found. 
+2024-04-24T16:26:27.226 [restartedMain] INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2024-04-24T16:26:27.231 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:26:27.232 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8081 (http) with context path '' 
+2024-04-24T16:26:27.234 [restartedMain] INFO c.g.CobyApplication - Started CobyApplication in 0.145 seconds (process running for 3441.318) 
+2024-04-24T16:26:27.234 [restartedMain] INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2024-04-24T16:26:46.878 [File Watcher] INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification) 
+2024-04-24T16:26:46.881 [Thread-131] INFO o.a.c.h.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:26:46.938 [restartedMain] INFO c.g.CobyApplication - Starting CobyApplication using Java 17.0.10 with PID 6684 (/Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby/bin/main started by ramses in /Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby) 
+2024-04-24T16:26:46.938 [restartedMain] INFO c.g.CobyApplication - The following 1 profile is active: "external" 
+2024-04-24T16:26:47.007 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8081 (http) 
+2024-04-24T16:26:47.007 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:26:47.007 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2024-04-24T16:26:47.007 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19] 
+2024-04-24T16:26:47.009 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2024-04-24T16:26:47.010 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 71 ms 
+2024-04-24T16:26:47.015 [restartedMain] WARN o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'principalOauth2UserService': Lookup method resolution failed 
+2024-04-24T16:26:47.015 [restartedMain] INFO o.a.c.c.StandardService - Stopping service [Tomcat] 
+2024-04-24T16:26:47.018 [restartedMain] INFO o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled. 
+2024-04-24T16:26:47.023 [restartedMain] ERROR o.s.b.SpringApplication - Application run failed 
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'principalOauth2UserService': Lookup method resolution failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:497)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:367)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1294)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:959)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.goodjob.CobyApplication.main(CobyApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.goodjob.infra.naverlogin.PrincipalOauth2UserService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@2e44efcc]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:320)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:475)
+	... 24 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: OAuth2UserRequest
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465)
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: OAuth2UserRequest
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 30 common frames omitted
+2024-04-24T16:26:53.539 [restartedMain] INFO c.g.CobyApplication - Starting CobyApplication using Java 17.0.10 with PID 6684 (/Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby/bin/main started by ramses in /Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby) 
+2024-04-24T16:26:53.539 [restartedMain] INFO c.g.CobyApplication - The following 1 profile is active: "external" 
+2024-04-24T16:26:53.626 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8081 (http) 
+2024-04-24T16:26:53.627 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:26:53.627 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2024-04-24T16:26:53.627 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19] 
+2024-04-24T16:26:53.629 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2024-04-24T16:26:53.629 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 89 ms 
+2024-04-24T16:26:53.634 [restartedMain] WARN o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'principalOauth2UserService': Lookup method resolution failed 
+2024-04-24T16:26:53.634 [restartedMain] INFO o.a.c.c.StandardService - Stopping service [Tomcat] 
+2024-04-24T16:26:53.637 [restartedMain] INFO o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled. 
+2024-04-24T16:26:53.637 [restartedMain] ERROR o.s.b.SpringApplication - Application run failed 
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'principalOauth2UserService': Lookup method resolution failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:497)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:367)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1294)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:959)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.goodjob.CobyApplication.main(CobyApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.goodjob.infra.naverlogin.PrincipalOauth2UserService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@41916aa5]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:320)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:475)
+	... 24 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: OAuth2UserRequest
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465)
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: OAuth2UserRequest
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 30 common frames omitted
+2024-04-24T16:27:17.348 [restartedMain] INFO c.g.CobyApplication - Starting CobyApplication using Java 17.0.10 with PID 6684 (/Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby/bin/main started by ramses in /Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby) 
+2024-04-24T16:27:17.349 [restartedMain] INFO c.g.CobyApplication - The following 1 profile is active: "external" 
+2024-04-24T16:27:17.435 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8081 (http) 
+2024-04-24T16:27:17.435 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:27:17.435 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2024-04-24T16:27:17.435 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19] 
+2024-04-24T16:27:17.437 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2024-04-24T16:27:17.437 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 87 ms 
+2024-04-24T16:27:17.442 [restartedMain] WARN o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'principalOauth2UserService': Lookup method resolution failed 
+2024-04-24T16:27:17.442 [restartedMain] INFO o.a.c.c.StandardService - Stopping service [Tomcat] 
+2024-04-24T16:27:17.445 [restartedMain] INFO o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled. 
+2024-04-24T16:27:17.446 [restartedMain] ERROR o.s.b.SpringApplication - Application run failed 
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'principalOauth2UserService': Lookup method resolution failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:497)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:367)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1294)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:959)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.goodjob.CobyApplication.main(CobyApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.goodjob.infra.naverlogin.PrincipalOauth2UserService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@61f5c1d3]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:320)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:475)
+	... 24 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: OAuth2UserRequest
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465)
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: OAuth2UserRequest
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 30 common frames omitted
+2024-04-24T16:27:43.171 [restartedMain] INFO c.g.CobyApplication - Starting CobyApplication using Java 17.0.10 with PID 6684 (/Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby/bin/main started by ramses in /Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby) 
+2024-04-24T16:27:43.171 [restartedMain] INFO c.g.CobyApplication - The following 1 profile is active: "external" 
+2024-04-24T16:27:43.253 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8081 (http) 
+2024-04-24T16:27:43.253 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:27:43.253 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2024-04-24T16:27:43.253 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19] 
+2024-04-24T16:27:43.257 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2024-04-24T16:27:43.257 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 85 ms 
+2024-04-24T16:27:43.262 [restartedMain] WARN o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'principalOauth2UserService': Lookup method resolution failed 
+2024-04-24T16:27:43.262 [restartedMain] INFO o.a.c.c.StandardService - Stopping service [Tomcat] 
+2024-04-24T16:27:43.265 [restartedMain] INFO o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled. 
+2024-04-24T16:27:43.265 [restartedMain] ERROR o.s.b.SpringApplication - Application run failed 
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'principalOauth2UserService': Lookup method resolution failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:497)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:367)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1294)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:959)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.goodjob.CobyApplication.main(CobyApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.goodjob.infra.naverlogin.PrincipalOauth2UserService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@55d7b011]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:320)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:475)
+	... 24 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: OAuth2UserRequest
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465)
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: OAuth2UserRequest
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 30 common frames omitted
+2024-04-24T16:33:51.150 [restartedMain] INFO c.g.CobyApplication - Starting CobyApplication using Java 17.0.10 with PID 6684 (/Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby/bin/main started by ramses in /Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby) 
+2024-04-24T16:33:51.150 [restartedMain] INFO c.g.CobyApplication - The following 1 profile is active: "external" 
+2024-04-24T16:33:51.234 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8081 (http) 
+2024-04-24T16:33:51.235 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:33:51.235 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2024-04-24T16:33:51.235 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19] 
+2024-04-24T16:33:51.237 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2024-04-24T16:33:51.237 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 85 ms 
+2024-04-24T16:33:51.242 [restartedMain] WARN o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'principalOauth2UserService': Lookup method resolution failed 
+2024-04-24T16:33:51.242 [restartedMain] INFO o.a.c.c.StandardService - Stopping service [Tomcat] 
+2024-04-24T16:33:51.245 [restartedMain] INFO o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled. 
+2024-04-24T16:33:51.245 [restartedMain] ERROR o.s.b.SpringApplication - Application run failed 
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'principalOauth2UserService': Lookup method resolution failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:497)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:367)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1294)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:959)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.goodjob.CobyApplication.main(CobyApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.goodjob.infra.naverlogin.PrincipalOauth2UserService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@7dc75fb4]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:320)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:475)
+	... 24 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: OAuth2UserRequest
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465)
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: OAuth2UserRequest
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 30 common frames omitted
+2024-04-24T16:34:10.899 [restartedMain] INFO c.g.CobyApplication - Starting CobyApplication using Java 17.0.10 with PID 6684 (/Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby/bin/main started by ramses in /Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby) 
+2024-04-24T16:34:10.900 [restartedMain] INFO c.g.CobyApplication - The following 1 profile is active: "external" 
+2024-04-24T16:34:10.967 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8081 (http) 
+2024-04-24T16:34:10.967 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:34:10.967 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2024-04-24T16:34:10.967 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19] 
+2024-04-24T16:34:10.969 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2024-04-24T16:34:10.970 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 70 ms 
+2024-04-24T16:34:10.974 [restartedMain] WARN o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'principalOauth2UserService': Lookup method resolution failed 
+2024-04-24T16:34:10.974 [restartedMain] INFO o.a.c.c.StandardService - Stopping service [Tomcat] 
+2024-04-24T16:34:10.977 [restartedMain] INFO o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled. 
+2024-04-24T16:34:10.979 [restartedMain] ERROR o.s.b.SpringApplication - Application run failed 
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'principalOauth2UserService': Lookup method resolution failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:497)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:367)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1294)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:959)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.goodjob.CobyApplication.main(CobyApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.goodjob.infra.naverlogin.PrincipalOauth2UserService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@37c9d6eb]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:320)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:475)
+	... 24 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: OAuth2UserRequest
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465)
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: OAuth2UserRequest
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 30 common frames omitted
+2024-04-24T16:34:16.469 [restartedMain] INFO c.g.CobyApplication - Starting CobyApplication using Java 17.0.10 with PID 6684 (/Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby/bin/main started by ramses in /Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby) 
+2024-04-24T16:34:16.469 [restartedMain] INFO c.g.CobyApplication - The following 1 profile is active: "external" 
+2024-04-24T16:34:16.539 [restartedMain] WARN o.m.s.m.ClassPathMapperScanner - No MyBatis mapper was found in '[com.goodjob.*]' package. Please check your configuration. 
+2024-04-24T16:34:16.557 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8081 (http) 
+2024-04-24T16:34:16.557 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:34:16.557 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2024-04-24T16:34:16.557 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19] 
+2024-04-24T16:34:16.560 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2024-04-24T16:34:16.560 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 90 ms 
+2024-04-24T16:34:16.564 [restartedMain] WARN o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'principalOauth2UserService': Lookup method resolution failed 
+2024-04-24T16:34:16.564 [restartedMain] INFO o.a.c.c.StandardService - Stopping service [Tomcat] 
+2024-04-24T16:34:16.567 [restartedMain] INFO o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled. 
+2024-04-24T16:34:16.568 [restartedMain] ERROR o.s.b.SpringApplication - Application run failed 
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'principalOauth2UserService': Lookup method resolution failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:497)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:367)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1294)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:959)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.goodjob.CobyApplication.main(CobyApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.goodjob.infra.naverlogin.PrincipalOauth2UserService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@787d6298]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:320)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:475)
+	... 24 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: OAuth2UserRequest
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465)
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: OAuth2UserRequest
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 30 common frames omitted
+2024-04-24T16:34:24.068 [restartedMain] INFO c.g.CobyApplication - Starting CobyApplication using Java 17.0.10 with PID 6684 (/Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby/bin/main started by ramses in /Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby) 
+2024-04-24T16:34:24.068 [restartedMain] INFO c.g.CobyApplication - The following 1 profile is active: "external" 
+2024-04-24T16:34:24.132 [restartedMain] WARN o.m.s.m.ClassPathMapperScanner - No MyBatis mapper was found in '[com.goodjob.*]' package. Please check your configuration. 
+2024-04-24T16:34:24.149 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8081 (http) 
+2024-04-24T16:34:24.149 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:34:24.149 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2024-04-24T16:34:24.149 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19] 
+2024-04-24T16:34:24.152 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2024-04-24T16:34:24.152 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 83 ms 
+2024-04-24T16:34:24.159 [restartedMain] WARN o.m.s.SqlSessionFactoryBean - Property 'mapperLocations' was specified but matching resources are not found. 
+2024-04-24T16:34:24.201 [restartedMain] INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2024-04-24T16:34:24.205 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:34:24.206 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8081 (http) with context path '' 
+2024-04-24T16:34:24.208 [restartedMain] INFO c.g.CobyApplication - Started CobyApplication in 0.155 seconds (process running for 3918.362) 
+2024-04-24T16:34:24.208 [restartedMain] INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2024-04-24T16:36:00.705 [File Watcher] INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification) 
+2024-04-24T16:36:00.706 [Thread-135] INFO o.a.c.h.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:36:00.763 [restartedMain] INFO c.g.CobyApplication - Starting CobyApplication using Java 17.0.10 with PID 6684 (/Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby/bin/main started by ramses in /Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby) 
+2024-04-24T16:36:00.763 [restartedMain] INFO c.g.CobyApplication - The following 1 profile is active: "external" 
+2024-04-24T16:36:00.812 [restartedMain] WARN o.m.s.m.ClassPathMapperScanner - No MyBatis mapper was found in '[com.goodjob.*]' package. Please check your configuration. 
+2024-04-24T16:36:00.829 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8081 (http) 
+2024-04-24T16:36:00.829 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:36:00.829 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2024-04-24T16:36:00.829 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19] 
+2024-04-24T16:36:00.831 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2024-04-24T16:36:00.831 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 68 ms 
+2024-04-24T16:36:00.839 [restartedMain] WARN o.m.s.SqlSessionFactoryBean - Property 'mapperLocations' was specified but matching resources are not found. 
+2024-04-24T16:36:00.880 [restartedMain] INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2024-04-24T16:36:00.884 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:36:00.885 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8081 (http) with context path '' 
+2024-04-24T16:36:00.887 [restartedMain] INFO c.g.CobyApplication - Started CobyApplication in 0.135 seconds (process running for 4015.043) 
+2024-04-24T16:36:00.888 [restartedMain] INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2024-04-24T16:36:23.529 [File Watcher] INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification) 
+2024-04-24T16:36:23.531 [Thread-160] INFO o.a.c.h.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:36:23.591 [restartedMain] INFO c.g.CobyApplication - Starting CobyApplication using Java 17.0.10 with PID 6684 (/Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby/bin/main started by ramses in /Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby) 
+2024-04-24T16:36:23.591 [restartedMain] INFO c.g.CobyApplication - The following 1 profile is active: "external" 
+2024-04-24T16:36:23.640 [restartedMain] WARN o.m.s.m.ClassPathMapperScanner - No MyBatis mapper was found in '[com.goodjob.*]' package. Please check your configuration. 
+2024-04-24T16:36:23.658 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8081 (http) 
+2024-04-24T16:36:23.658 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:36:23.658 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2024-04-24T16:36:23.658 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19] 
+2024-04-24T16:36:23.661 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2024-04-24T16:36:23.661 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 69 ms 
+2024-04-24T16:36:23.670 [restartedMain] WARN o.m.s.SqlSessionFactoryBean - Property 'mapperLocations' was specified but matching resources are not found. 
+2024-04-24T16:36:23.712 [restartedMain] INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2024-04-24T16:36:23.716 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:36:23.717 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8081 (http) with context path '' 
+2024-04-24T16:36:23.720 [restartedMain] INFO c.g.CobyApplication - Started CobyApplication in 0.139 seconds (process running for 4037.876) 
+2024-04-24T16:36:23.720 [restartedMain] INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2024-04-24T16:39:24.286 [File Watcher] INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification) 
+2024-04-24T16:39:24.288 [Thread-164] INFO o.a.c.h.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:39:24.348 [restartedMain] INFO c.g.CobyApplication - Starting CobyApplication using Java 17.0.10 with PID 6684 (/Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby/bin/main started by ramses in /Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby) 
+2024-04-24T16:39:24.348 [restartedMain] INFO c.g.CobyApplication - The following 1 profile is active: "external" 
+2024-04-24T16:39:24.400 [restartedMain] WARN o.m.s.m.ClassPathMapperScanner - No MyBatis mapper was found in '[com.goodjob.*]' package. Please check your configuration. 
+2024-04-24T16:39:24.419 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8081 (http) 
+2024-04-24T16:39:24.419 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:39:24.419 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2024-04-24T16:39:24.419 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19] 
+2024-04-24T16:39:24.422 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2024-04-24T16:39:24.422 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 73 ms 
+2024-04-24T16:39:24.429 [restartedMain] WARN o.m.s.SqlSessionFactoryBean - Property 'mapperLocations' was specified but matching resources are not found. 
+2024-04-24T16:39:24.476 [restartedMain] INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2024-04-24T16:39:24.480 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:39:24.481 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8081 (http) with context path '' 
+2024-04-24T16:39:24.483 [restartedMain] INFO c.g.CobyApplication - Started CobyApplication in 0.145 seconds (process running for 4218.643) 
+2024-04-24T16:39:24.484 [restartedMain] INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2024-04-24T16:51:32.499 [File Watcher] INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification) 
+2024-04-24T16:51:32.500 [Thread-168] INFO o.a.c.h.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:51:32.546 [restartedMain] INFO c.g.CobyApplication - Starting CobyApplication using Java 17.0.10 with PID 6684 (/Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby/bin/main started by ramses in /Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby) 
+2024-04-24T16:51:32.546 [restartedMain] INFO c.g.CobyApplication - The following 1 profile is active: "external" 
+2024-04-24T16:51:32.597 [restartedMain] WARN o.m.s.m.ClassPathMapperScanner - No MyBatis mapper was found in '[com.goodjob.*]' package. Please check your configuration. 
+2024-04-24T16:51:32.617 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8081 (http) 
+2024-04-24T16:51:32.618 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:51:32.618 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2024-04-24T16:51:32.618 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19] 
+2024-04-24T16:51:32.620 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2024-04-24T16:51:32.620 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 73 ms 
+2024-04-24T16:51:32.628 [restartedMain] WARN o.m.s.SqlSessionFactoryBean - Property 'mapperLocations' was specified but matching resources are not found. 
+2024-04-24T16:51:32.675 [restartedMain] INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2024-04-24T16:51:32.679 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:51:32.680 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8081 (http) with context path '' 
+2024-04-24T16:51:32.682 [restartedMain] INFO c.g.CobyApplication - Started CobyApplication in 0.146 seconds (process running for 4946.855) 
+2024-04-24T16:51:32.683 [restartedMain] INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2024-04-24T16:53:21.326 [File Watcher] INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification) 
+2024-04-24T16:53:21.329 [Thread-172] INFO o.a.c.h.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:53:21.387 [restartedMain] INFO c.g.CobyApplication - Starting CobyApplication using Java 17.0.10 with PID 6684 (/Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby/bin/main started by ramses in /Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby) 
+2024-04-24T16:53:21.387 [restartedMain] INFO c.g.CobyApplication - The following 1 profile is active: "external" 
+2024-04-24T16:53:21.439 [restartedMain] WARN o.m.s.m.ClassPathMapperScanner - No MyBatis mapper was found in '[com.goodjob.*]' package. Please check your configuration. 
+2024-04-24T16:53:21.458 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8081 (http) 
+2024-04-24T16:53:21.459 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:53:21.459 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2024-04-24T16:53:21.459 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19] 
+2024-04-24T16:53:21.461 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2024-04-24T16:53:21.461 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 73 ms 
+2024-04-24T16:53:21.470 [restartedMain] WARN o.m.s.SqlSessionFactoryBean - Property 'mapperLocations' was specified but matching resources are not found. 
+2024-04-24T16:53:21.515 [restartedMain] INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2024-04-24T16:53:21.519 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:53:21.520 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8081 (http) with context path '' 
+2024-04-24T16:53:21.522 [restartedMain] INFO c.g.CobyApplication - Started CobyApplication in 0.147 seconds (process running for 5055.697) 
+2024-04-24T16:53:21.523 [restartedMain] INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2024-04-24T16:54:34.714 [File Watcher] INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification) 
+2024-04-24T16:54:34.717 [Thread-176] INFO o.a.c.h.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:54:34.775 [restartedMain] INFO c.g.CobyApplication - Starting CobyApplication using Java 17.0.10 with PID 6684 (/Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby/bin/main started by ramses in /Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby) 
+2024-04-24T16:54:34.775 [restartedMain] INFO c.g.CobyApplication - The following 1 profile is active: "external" 
+2024-04-24T16:54:34.824 [restartedMain] WARN o.m.s.m.ClassPathMapperScanner - No MyBatis mapper was found in '[com.goodjob.*]' package. Please check your configuration. 
+2024-04-24T16:54:34.841 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8081 (http) 
+2024-04-24T16:54:34.841 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:54:34.841 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2024-04-24T16:54:34.841 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19] 
+2024-04-24T16:54:34.843 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2024-04-24T16:54:34.843 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 67 ms 
+2024-04-24T16:54:34.851 [restartedMain] WARN o.m.s.SqlSessionFactoryBean - Property 'mapperLocations' was specified but matching resources are not found. 
+2024-04-24T16:54:34.892 [restartedMain] INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2024-04-24T16:54:34.896 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:54:34.897 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8081 (http) with context path '' 
+2024-04-24T16:54:34.899 [restartedMain] INFO c.g.CobyApplication - Started CobyApplication in 0.134 seconds (process running for 5129.075) 
+2024-04-24T16:54:34.899 [restartedMain] INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2024-04-24T16:54:55.552 [File Watcher] INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification) 
+2024-04-24T16:54:55.553 [Thread-180] INFO o.a.c.h.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:54:55.605 [restartedMain] INFO c.g.CobyApplication - Starting CobyApplication using Java 17.0.10 with PID 6684 (/Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby/bin/main started by ramses in /Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby) 
+2024-04-24T16:54:55.605 [restartedMain] INFO c.g.CobyApplication - The following 1 profile is active: "external" 
+2024-04-24T16:54:55.653 [restartedMain] WARN o.m.s.m.ClassPathMapperScanner - No MyBatis mapper was found in '[com.goodjob.*]' package. Please check your configuration. 
+2024-04-24T16:54:55.670 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8081 (http) 
+2024-04-24T16:54:55.670 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:54:55.670 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2024-04-24T16:54:55.670 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19] 
+2024-04-24T16:54:55.672 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2024-04-24T16:54:55.673 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 67 ms 
+2024-04-24T16:54:55.681 [restartedMain] WARN o.m.s.SqlSessionFactoryBean - Property 'mapperLocations' was specified but matching resources are not found. 
+2024-04-24T16:54:55.721 [restartedMain] INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2024-04-24T16:54:55.725 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:54:55.726 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8081 (http) with context path '' 
+2024-04-24T16:54:55.728 [restartedMain] INFO c.g.CobyApplication - Started CobyApplication in 0.133 seconds (process running for 5149.905) 
+2024-04-24T16:54:55.729 [restartedMain] INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2024-04-24T16:55:59.885 [File Watcher] INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification) 
+2024-04-24T16:55:59.887 [Thread-184] INFO o.a.c.h.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:55:59.943 [restartedMain] INFO c.g.CobyApplication - Starting CobyApplication using Java 17.0.10 with PID 6684 (/Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby/bin/main started by ramses in /Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby) 
+2024-04-24T16:55:59.943 [restartedMain] INFO c.g.CobyApplication - The following 1 profile is active: "external" 
+2024-04-24T16:55:59.993 [restartedMain] WARN o.m.s.m.ClassPathMapperScanner - No MyBatis mapper was found in '[com.goodjob.*]' package. Please check your configuration. 
+2024-04-24T16:56:00.010 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8081 (http) 
+2024-04-24T16:56:00.010 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:56:00.010 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2024-04-24T16:56:00.010 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19] 
+2024-04-24T16:56:00.013 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2024-04-24T16:56:00.013 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 70 ms 
+2024-04-24T16:56:00.022 [restartedMain] WARN o.m.s.SqlSessionFactoryBean - Property 'mapperLocations' was specified but matching resources are not found. 
+2024-04-24T16:56:00.063 [restartedMain] INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2024-04-24T16:56:00.067 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:56:00.067 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8081 (http) with context path '' 
+2024-04-24T16:56:00.070 [restartedMain] INFO c.g.CobyApplication - Started CobyApplication in 0.138 seconds (process running for 5214.247) 
+2024-04-24T16:56:00.070 [restartedMain] INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2024-04-24T16:56:14.632 [File Watcher] INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification) 
+2024-04-24T16:56:14.635 [Thread-188] INFO o.a.c.h.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:56:14.693 [restartedMain] INFO c.g.CobyApplication - Starting CobyApplication using Java 17.0.10 with PID 6684 (/Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby/bin/main started by ramses in /Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby) 
+2024-04-24T16:56:14.693 [restartedMain] INFO c.g.CobyApplication - The following 1 profile is active: "external" 
+2024-04-24T16:56:14.742 [restartedMain] WARN o.m.s.m.ClassPathMapperScanner - No MyBatis mapper was found in '[com.goodjob.*]' package. Please check your configuration. 
+2024-04-24T16:56:14.760 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8081 (http) 
+2024-04-24T16:56:14.760 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:56:14.761 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2024-04-24T16:56:14.761 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19] 
+2024-04-24T16:56:14.763 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2024-04-24T16:56:14.763 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 70 ms 
+2024-04-24T16:56:14.772 [restartedMain] WARN o.m.s.SqlSessionFactoryBean - Property 'mapperLocations' was specified but matching resources are not found. 
+2024-04-24T16:56:14.814 [restartedMain] INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2024-04-24T16:56:14.819 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:56:14.819 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8081 (http) with context path '' 
+2024-04-24T16:56:14.822 [restartedMain] INFO c.g.CobyApplication - Started CobyApplication in 0.139 seconds (process running for 5229.0) 
+2024-04-24T16:56:14.823 [restartedMain] INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2024-04-24T16:56:25.046 [http-nio-8081-exec-1] INFO o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2024-04-24T16:56:25.046 [http-nio-8081-exec-1] INFO o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2024-04-24T16:56:25.047 [http-nio-8081-exec-1] INFO o.s.w.s.DispatcherServlet - Completed initialization in 1 ms 
+2024-04-24T16:56:25.078 [http-nio-8081-exec-1] ERROR o.t.TemplateEngine - [THYMELEAF][http-nio-8081-exec-1] Exception processing template "/error": Error resolving template [/error], template might not exist or might not be accessible by any of the configured Template Resolvers 
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [/error], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077)
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372)
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1431)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1167)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2024-04-24T16:56:25.079 [http-nio-8081-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.thymeleaf.exceptions.TemplateInputException: Error resolving template [/error], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause 
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [/error], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077)
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372)
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1431)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1167)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2024-04-24T16:58:15.544 [File Watcher] INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification) 
+2024-04-24T16:58:15.545 [Thread-192] INFO o.a.c.h.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:58:15.590 [restartedMain] INFO c.g.CobyApplication - Starting CobyApplication using Java 17.0.10 with PID 6684 (/Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby/bin/main started by ramses in /Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby) 
+2024-04-24T16:58:15.590 [restartedMain] INFO c.g.CobyApplication - The following 1 profile is active: "external" 
+2024-04-24T16:58:15.639 [restartedMain] WARN o.m.s.m.ClassPathMapperScanner - No MyBatis mapper was found in '[com.goodjob.*]' package. Please check your configuration. 
+2024-04-24T16:58:15.657 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8081 (http) 
+2024-04-24T16:58:15.657 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:58:15.657 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2024-04-24T16:58:15.657 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19] 
+2024-04-24T16:58:15.659 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2024-04-24T16:58:15.659 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 68 ms 
+2024-04-24T16:58:15.667 [restartedMain] WARN o.m.s.SqlSessionFactoryBean - Property 'mapperLocations' was specified but matching resources are not found. 
+2024-04-24T16:58:15.709 [restartedMain] INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2024-04-24T16:58:15.713 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:58:15.714 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8081 (http) with context path '' 
+2024-04-24T16:58:15.716 [restartedMain] INFO c.g.CobyApplication - Started CobyApplication in 0.137 seconds (process running for 5349.896) 
+2024-04-24T16:58:15.717 [restartedMain] INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2024-04-24T16:58:26.369 [http-nio-8081-exec-1] INFO o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2024-04-24T16:58:26.369 [http-nio-8081-exec-1] INFO o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2024-04-24T16:58:26.370 [http-nio-8081-exec-1] INFO o.s.w.s.DispatcherServlet - Completed initialization in 1 ms 
+2024-04-24T16:59:12.713 [File Watcher] INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification) 
+2024-04-24T16:59:12.716 [Thread-196] INFO o.a.c.h.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:59:12.766 [restartedMain] INFO c.g.CobyApplication - Starting CobyApplication using Java 17.0.10 with PID 6684 (/Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby/bin/main started by ramses in /Volumes/Work/factory/workspace/sts4_4210/repo_coby/coby) 
+2024-04-24T16:59:12.767 [restartedMain] INFO c.g.CobyApplication - The following 1 profile is active: "external" 
+2024-04-24T16:59:12.819 [restartedMain] WARN o.m.s.m.ClassPathMapperScanner - No MyBatis mapper was found in '[com.goodjob.*]' package. Please check your configuration. 
+2024-04-24T16:59:12.836 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8081 (http) 
+2024-04-24T16:59:12.836 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:59:12.836 [restartedMain] INFO o.a.c.c.StandardService - Starting service [Tomcat] 
+2024-04-24T16:59:12.836 [restartedMain] INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19] 
+2024-04-24T16:59:12.839 [restartedMain] INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2024-04-24T16:59:12.839 [restartedMain] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 72 ms 
+2024-04-24T16:59:12.846 [restartedMain] WARN o.m.s.SqlSessionFactoryBean - Property 'mapperLocations' was specified but matching resources are not found. 
+2024-04-24T16:59:12.888 [restartedMain] INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2024-04-24T16:59:12.892 [restartedMain] INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"] 
+2024-04-24T16:59:12.892 [restartedMain] INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8081 (http) with context path '' 
+2024-04-24T16:59:12.895 [restartedMain] INFO c.g.CobyApplication - Started CobyApplication in 0.139 seconds (process running for 5407.076) 
+2024-04-24T16:59:12.895 [restartedMain] INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
