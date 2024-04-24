@@ -28,7 +28,7 @@
 			)
 		VALUES
 			(
-			  1
+			  #{mbrType}
 			, #{name}
 			, #{email}
 			, now()
