@@ -16,6 +16,7 @@ import org.springframework.ui.Model;
 import org.springframework.util.LinkedMultiValueMap;
 import org.springframework.util.MultiValueMap;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.client.RestTemplate;
 
 import jakarta.servlet.http.HttpServletRequest;
@@ -32,6 +33,18 @@ public class NaverLoginController {
     @RequestMapping(value="/naverLogin")
 	public String naverLogin() {
     	return "naverlogin/naverLogin";
+    }
+    
+	// 로그인화면
+    @RequestMapping(value="/callback")
+	public String callback() {
+    	return "naverlogin/callback";
+    }
+    
+	// 로그인화면
+    @RequestMapping(value="/naverLoginResult")
+	public String naverLoginResult() {
+    	return "naverlogin/naverLoginResult";
     }
     
 	@RequestMapping(value="/loginNaver")
@@ -79,9 +92,9 @@ public class NaverLoginController {
 	        return "/error";
 	    }
 
-	    String tokenURL = "https://nid.naver.com/oauth2.0/token";
-	    String client_id = "r1aTHRBql6Ny_r2b60bZ"; //[CLIENT ID];  <------------------------------------ 수정
-	    String client_secret = "tDeVoy1gLD"; //[CLIENT SECRET];  <------------------------------------ 수정
+	    String tokenURL      = "https://nid.naver.com/oauth2.0/token";
+	    String client_id     = "r1aTHRBql6Ny_r2b60bZ";
+	    String client_secret = "tDeVoy1gLD";
 
 	    // body data 생성
 	    MultiValueMap<String, String> parameter = new LinkedMultiValueMap<>();
@@ -161,5 +174,30 @@ public class NaverLoginController {
 	    request.getSession().removeAttribute("state");
 	    
 	    return "/naverlogin/naverLoginResult";
+	}
+	
+	@ResponseBody
+	@RequestMapping(value = "/insert")
+	public Map<String, Object> insert(NaverLoginDto dto, NaverLoginDto isDto) {
+		Map<String, Object> returnMap = new HashMap<>();
+
+		System.out.println("dto.getEmail()===================" + dto.getEmail());
+		
+        // 회원존재확인
+		isDto = service.selectOneLogin(dto);
+        
+        if(isDto == null) {
+        	dto.setMbrType(1); // 사용자
+        	
+    		if(service.insert(dto) == 1) {
+    			returnMap.put("rt", "success");
+    		} else {
+    			returnMap.put("rt", "fail");
+    		}
+        } else {
+        	returnMap.put("rt", "success");
+        }
+        
+		return returnMap;
 	}
 }
