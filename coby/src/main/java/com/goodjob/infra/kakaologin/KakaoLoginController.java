@@ -8,6 +8,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class KakaoLoginController {
+	@Value("${javascript_key}")
+	private String javascriptKey;
+
 	@Value("${kakao_rest_key}")
 	private String kakaoRestKey;
 	
@@ -22,6 +25,7 @@ public class KakaoLoginController {
 	public String kakaoLogin(Model model) throws Exception {
     	String location = "https://kauth.kakao.com/oauth/authorize?client_id="+kakaoRestKey+"&redirect_uri="+kakaoRedirectUri+"&response_type=code&scope=account_email,name,gender";
     	model.addAttribute("location", location);
+    	model.addAttribute("javascriptKey", javascriptKey);
     	model.addAttribute("kakaoRestKey", kakaoRestKey);
     	model.addAttribute("kakaoRedirectUri", kakaoRedirectUri);
     	//System.out.println(location);
