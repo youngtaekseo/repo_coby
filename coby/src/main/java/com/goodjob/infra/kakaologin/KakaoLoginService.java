@@ -7,6 +7,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.Map;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.fasterxml.jackson.core.type.TypeReference;
@@ -14,6 +15,9 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 @Service
 public class KakaoLoginService {
+	@Autowired
+	KakaoLoginDao dao;
+	
 	public String getAccessTokenFromKakao(String client_id, String code) throws IOException {
         //------kakao POST 요청------
         String reqURL = "https://kauth.kakao.com/oauth/token?grant_type=authorization_code&client_id="+client_id+"&code="+code;
@@ -31,20 +35,13 @@ public class KakaoLoginService {
         }
 
         ObjectMapper objectMapper = new ObjectMapper();
-        Map<String, Object> jsonMap = objectMapper.readValue(result, new TypeReference<Map<String, Object>>() {
-        });
+        Map<String, Object> jsonMap = objectMapper.readValue(result, new TypeReference<Map<String, Object>>() {});
 
-        System.out.println("Response Body : " + result);
+        //System.out.println("Response Body : " + result);
 
         String accessToken = (String) jsonMap.get("access_token");
-        String refreshToken = (String) jsonMap.get("refresh_token");
-        String scope = (String) jsonMap.get("scope");
-
-
-        System.out.println("Access Token : " + accessToken);
-        System.out.println("Refresh Token : " + refreshToken);
-        System.out.println("Scope : " + scope);
-
+        //String refreshToken = (String) jsonMap.get("refresh_token");
+        //String scope = (String) jsonMap.get("scope");
 
         return accessToken;
     }
@@ -82,10 +79,11 @@ public class KakaoLoginService {
         //Map<String, Object> properties = (Map<String, Object>) jsonMap.get("properties");
         Map<String, Object> kakao_account = (Map<String, Object>) jsonMap.get("kakao_account");
 
-        Long id             = (Long) jsonMap.get("id");
-        String name         = kakao_account.get("name").toString();
-        String email        = kakao_account.get("email").toString();
-        String gender        = kakao_account.get("gender").toString();
+        Long id       = (Long) jsonMap.get("id");
+        String name   = kakao_account.get("name").toString();
+        String email  = kakao_account.get("email").toString();
+        String gender = kakao_account.get("gender").toString();
+        String phone  = kakao_account.get("phone_number").toString();
         
         /*
         if(properties != null) {
@@ -101,8 +99,25 @@ public class KakaoLoginService {
         dto.setId(id);
         dto.setName(name);
         dto.setEmail(email);
-        dto.setGender(gender);
+        dto.setPhone(phone);
+        
+        // 성별
+        if(gender.equals("male")) {
+        	dto.setMbrSex(12); // 남
+        } else {
+        	dto.setMbrSex(13); // 여
+        }
 
         return dto;
     }	
+	
+	// 로그인 id 확인
+	public KakaoLoginDto selectOneLogin(KakaoLoginDto dto) {
+		return dao.selectOneLogin(dto);
+	};
+	
+	// 회원등록
+	public int insert(KakaoLoginDto dto) {
+		return dao.insert(dto);
+	};	
 }

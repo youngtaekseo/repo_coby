@@ -1,11 +1,13 @@
 package com.goodjob.infra.kakaologin;
 
-public class KakaoLoginDto {
+import com.goodjob.infra.member.MemberDto;
+
+public class KakaoLoginDto extends MemberDto {
 	private String code;
 	private Long   id;
 	private String name;
 	private String email;
-	private String gender;
+	private String phone;
 
 	public String getCode() {
 		return code;
@@ -39,11 +41,11 @@ public class KakaoLoginDto {
 		this.email = email;
 	}
 
-	public String getGender() {
-		return gender;
+	public String getPhone() {
+		return phone;
 	}
 
-	public void setGender(String gender) {
-		this.gender = gender;
+	public void setPhone(String phone) {
+		this.phone = phone;
 	}
 }

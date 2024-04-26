@@ -23,7 +23,7 @@ public class KakaoLoginController {
 	// 로그인화면
     @RequestMapping(value="/kakaoLogin")
 	public String kakaoLogin(Model model) throws Exception {
-    	String location = "https://kauth.kakao.com/oauth/authorize?client_id="+kakaoRestKey+"&redirect_uri="+kakaoRedirectUri+"&response_type=code&scope=account_email,name,gender";
+    	String location = "https://kauth.kakao.com/oauth/authorize?client_id="+kakaoRestKey+"&redirect_uri="+kakaoRedirectUri+"&response_type=code&scope=account_email,name,gender,phone_number";
     	model.addAttribute("location", location);
     	model.addAttribute("javascriptKey", javascriptKey);
     	model.addAttribute("kakaoRestKey", kakaoRestKey);
@@ -34,18 +34,22 @@ public class KakaoLoginController {
     }
     
     @RequestMapping(value="/loginKakaoRedirect")
-    public String loginKakaoRedirect(KakaoLoginDto dto, Model model) throws Exception {
+    public String loginKakaoRedirect(KakaoLoginDto dto, KakaoLoginDto isDto, Model model) throws Exception {
     	System.out.println("dto.getCode()================"+dto.getCode());
 		
     	// 토큰 받기 
     	String accessToken = service.getAccessTokenFromKakao(kakaoRestKey, dto.getCode());
 		  
     	dto = service.getUserInfo(accessToken, dto);
-        System.out.println("id : " + dto.getId());
-        System.out.println("name : " + dto.getName());
-        System.out.println("email : " + dto.getEmail());
-        System.out.println("gender : " + dto.getGender());
 		  
+     // 회원존재확인
+        isDto = service.selectOneLogin(dto);
+        
+        if(isDto == null) {
+        	dto.setMbrType(1); // 사용자
+        	service.insert(dto);
+        }
+        
         model.addAttribute("info", dto);
         
         return "kakaologin/kakaoLoginCallBack";

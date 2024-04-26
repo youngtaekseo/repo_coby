@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.goodjob.infra.kakaologin.KakaoLoginDao">
+
+	<resultMap id="resultMapObj" type="com.goodjob.infra.kakaologin.KakaoLoginDto"></resultMap>
+	
+	<!-- 로그인 id 확인용 -->
+	<select id="selectOneLogin" resultMap="resultMapObj">
+		SELECT mbrSeq
+		     , mbrName
+		     , mbrEmail
+		  FROM members
+		 WHERE 1 = 1
+		   AND mbrEmail = #{email}
+		   AND mbrDelNy = 0
+	</select>
+	
+	<insert id="insert">
+		INSERT INTO members
+			( 
+			  mbrType
+			, mbrName
+			, mbrEmail
+			, mbrSex
+			, mbrRegDt
+			, mbrUdtDt
+			, mbrDelNy
+			)
+		VALUES
+			(
+			  #{mbrType}
+			, #{name}
+			, #{email}
+			, #{mbrSex}
+			, now()
+			, now()
+			, 0
+			)
+	</insert>
+
+</mapper>
