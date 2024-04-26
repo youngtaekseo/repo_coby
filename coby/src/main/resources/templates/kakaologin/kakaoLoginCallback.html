@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>카카오 로그인 api 이용하기</title>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+</head>
+<body>
+ 
+<h1> 카카오 로그인 api 이용하기 </h1>
+ 	
+<h1>카카오 로그인 테스트</h1>
+<form>
+
+<h3 th:text="'성명: '+${info.name}"></h3>
+<h3 th:text="'이메일: '+${info.email}"></h3>
+<h3 th:text="'성별: '+${info.gender}"></h3>
+    
+
+</form>
+
+</body>
+</html>
