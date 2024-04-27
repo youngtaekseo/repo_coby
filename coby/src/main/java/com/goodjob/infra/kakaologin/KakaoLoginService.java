@@ -18,6 +18,7 @@ public class KakaoLoginService {
 	@Autowired
 	KakaoLoginDao dao;
 	
+	// 토큰요청
 	public String getAccessTokenFromKakao(String client_id, String code) throws IOException {
         //------kakao POST 요청------
         String reqURL = "https://kauth.kakao.com/oauth/token?grant_type=authorization_code&client_id="+client_id+"&code="+code;
