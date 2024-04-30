@@ -19,11 +19,11 @@ public class KakaoLoginController {
 	
 	@Autowired
 	KakaoLoginService service;
-	
+	//,name,gender,phone_number
 	// 로그인화면
     @RequestMapping(value="/kakaoLogin")
 	public String kakaoLogin(Model model) throws Exception {
-    	String location = "https://kauth.kakao.com/oauth/authorize?client_id="+kakaoRestKey+"&redirect_uri="+kakaoRedirectUri+"&response_type=code&scope=account_email,name,gender,phone_number";
+    	String location = "https://kauth.kakao.com/oauth/authorize?client_id="+kakaoRestKey+"&redirect_uri="+kakaoRedirectUri+"&response_type=code&scope=account_email";
     	model.addAttribute("location", location);
     	model.addAttribute("javascriptKey", javascriptKey);
     	model.addAttribute("kakaoRestKey", kakaoRestKey);
@@ -33,10 +33,8 @@ public class KakaoLoginController {
     	return "kakaologin/kakaoLogin";
     }
     
-    @RequestMapping(value="/loginKakaoRedirect")
+    @RequestMapping(value="/redirectKakao")
     public String loginKakaoRedirect(KakaoLoginDto dto, KakaoLoginDto isDto, Model model) throws Exception {
-    	System.out.println("dto.getCode()================"+dto.getCode());
-		
     	// 토큰 받기 
     	String accessToken = service.getAccessTokenFromKakao(kakaoRestKey, dto.getCode());
 		  

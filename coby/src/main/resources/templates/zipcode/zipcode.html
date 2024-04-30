@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>우편번호검색</title>
+	<script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
+	<script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=3c0df67c09ae2c5f2f6ae77d136aaa86&libraries=services"></script>
 </head>
 <body>    	
 	<input type="text" id="postcode" placeholder="우편번호">
@@ -14,8 +16,6 @@
 	<input type="text" id="lat" placeholder="위도">
 	<input type="text" id="lon" placeholder="경도">
 	
-	<script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
-	<script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=3c0df67c09ae2c5f2f6ae77d136aaa86&libraries=services,clusterer&autoload=false"></script>
 	
 	<script>
 		
@@ -94,8 +94,8 @@
 		                })
 		            }).then(result => {
 		                // 위, 경도 결과 값
-		                document.getElementById("lat").value = x;
-		                document.getElementById("lot").value = y;
+		                document.getElementById("lat").value = result.lat; // 위도
+		                document.getElementById("lon").value = result.lon; // 경도
 		            });
 
 
